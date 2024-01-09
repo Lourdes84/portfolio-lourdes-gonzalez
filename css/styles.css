@@ -517,6 +517,7 @@ body::-webkit-scrollbar-thumb {
 
 .experience-container__info {
     text-align: left;
+    max-width: 750px;
 }
 
 .bold {
@@ -535,6 +536,10 @@ body::-webkit-scrollbar-thumb {
     .experience-container {
         flex-direction: column;
         gap: 10px;
+    }
+     .experience-container__info {
+        margin: 0 auto;
+        width: 100%;
     }
     .experience-container__img {
         margin: 0 auto;
