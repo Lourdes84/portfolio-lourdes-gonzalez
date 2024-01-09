@@ -532,7 +532,7 @@ body::-webkit-scrollbar-thumb {
     color: var(--lilaOscuro);
 }
 
-@media (max-width: 850px) {
+@media (max-width: 1330px) {
     .experience-container {
         flex-direction: column;
         gap: 10px;
